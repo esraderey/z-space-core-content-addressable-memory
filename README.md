@@ -182,10 +182,14 @@ small, but signatures may still change between versions. Benchmarks beyond the
 
 ## Authorship and contact
 
-Z-Space Core is the work of **Raul Cruz Acosta**. See
-[AUTHORSHIP.md](AUTHORSHIP.md) for the full authorship statement, including the
-list of technical contributions claimed and the channels for licensing
-inquiries.
+Z-Space Core is the work of **Raul Cruz Acosta** (alias `esraderey`).
+
+| Document | Purpose |
+| --- | --- |
+| [LICENSE](LICENSE) | Restrictive proprietary license currently in force. |
+| [AUTHORSHIP.md](AUTHORSHIP.md) / [DECLARACION-AUTORIA.md](DECLARACION-AUTORIA.md) | Authorship statement and list of technical contributions claimed (Spanish, identical content). |
+| [DECLARACION-JURADA-AUTORIA.md](DECLARACION-JURADA-AUTORIA.md) | **Sworn declaration of original authorship** with cryptographic anchor. |
+| [MANIFEST.sha256](MANIFEST.sha256) | SHA-256 hashes of every file in the repository as of the declaration date. Run `sha256sum -c MANIFEST.sha256` to verify. |
 
 For any use beyond personal reading and academic citation, written
 authorization is required — see [LICENSE](LICENSE).

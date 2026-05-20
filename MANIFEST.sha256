@@ -1,0 +1,37 @@
+# MANIFEST.sha256
+# Z-Space Core - Cryptographic file manifest
+# Author:    Raul Cruz Acosta (alias: esraderey)
+# Email:     csrrtr@gmail.com
+# Date:      2026-05-20
+# Algorithm: SHA-256 (FIPS 180-4)
+#
+# Verify integrity of all listed files with:
+#   sha256sum -c MANIFEST.sha256
+#
+# Any modification to any listed file will invalidate its hash.
+# This manifest is referenced by DECLARACION-JURADA-AUTORIA.md as
+# the canonical cryptographic anchor of the work on the date above.
+# ============================================================================
+
+59b3e078aff7567fafb42c6f3b9ebdc30c59e6c7df459dc261ad75e7c361a486 *./.gitignore
+b7b7a07fbf1586430bf1effd7c473b861559e7843c2246e8dbb54fa1f9a63d06 *./AUTHORSHIP.md
+b7b7a07fbf1586430bf1effd7c473b861559e7843c2246e8dbb54fa1f9a63d06 *./DECLARACION-AUTORIA.md
+6393a369b2bb58c05dfd1e53e09d0abbdbe23a2dc455497b1daf586b6c339114 *./DECLARACION-JURADA-AUTORIA.md
+2726151e8bc68603bb425f7e415dc046de11c261983a33accf493fdfcfbd499f *./LICENSE
+51738eb7acc9128110e1b0551fab5231e5130c15b88de0a6d53cdc352dc5f887 *./README.md
+c8be2269240539b351f7c151d215837b9f6e291fc70562b3c23e33373fc688a8 *./docs/deep_audit_findings_innovations.md
+3a2825a18c16da416e4824ce74d17ac0281bdeb83802dd363c9d1626c33dfd59 *./docs/paper_benchmark_metrics.md
+202c52fd814fb61ec4ea9c1f25757865568dfd853600b8a756f43a4578b63002 *./docs/postmortem_pythia_410m_sft_benchmark.md
+bdc01b8566edeb42fff0383beb52fda67f339493b1813c35581a4df4a2023db5 *./requirements.txt
+b82a59764d1ffbd28927c2d233825d4f4b6793043d9b9d094013f6fcf8703798 *./scripts/audit_pythia_delta_probe.py
+da340987457a2c73b267d0349c56a1b9e44ea10858871981e44cf30674d456aa *./scripts/benchmark_dvc_pythia_410m.py
+3c207273cf914a8d5aaeb621bf7663ffdff93b0b7e40d30876ac8604594d80d7 *./scripts/benchmark_safetensors_zstd_baseline.py
+f4284ab035c802fa16e9d0747f1ce85c9718ac455ff6e5607c15e5e77f262c1c *./scripts/benchmark_sft_pythia_410m.py
+c0f807be95a6d6425e949b1f27ae50e777023a68396c58a2411cb9f5aeaeb055 *./scripts/smoke_2m_model.py
+0de401218ed76e2fd797b8e5cdfcbbaa4405e6ed8e90d04cea9fb0521f677161 *./scripts/smoke_model_versioning.py
+01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b *./tests/__init__.py
+a4fff95a45a53a05af997f77950dce4fb320bb5e1bcc75251c19e35959fba387 *./tests/model_fixtures.py
+b6238dd0fdbabf3307b21f7630d3d33551a6ef88dab0c0de0acb72045829bb88 *./tests/test_z_space_core.py
+d957cfa5a1e9382b18796329a5bddc523ec210956b660a365a3b705a71584d9a *./tests/test_z_space_model_2m.py
+46d9926a78d5a95363b6403e5161262b509fd270ad0e49334e76341ccd5edbe4 *./tests/test_z_space_model_versioning.py
+f1addef622e286ad2c79621e892e1e70f1481c06daee10d76c1e10254a1af1a2 *./z_space_core.py

@@ -1,4 +1,9 @@
 """
+Z-Space Core
+Copyright (c) 2026 Raul Cruz Acosta. All Rights Reserved.
+
+Ver DECLARACION-AUTORIA.md para la declaración completa de autoría.
+
 Z-Space Core: content-addressable tensor memory with deterministic synthesis.
 
 Key properties implemented here:

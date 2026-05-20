@@ -1,0 +1,150 @@
+PROPRIETARY AND RESTRICTED LICENSE
+Z-Space Core — Content-Addressable Tensor Memory
+
+Copyright (c) 2026 Raul Cruz Acosta. All Rights Reserved.
+
+================================================================================
+                            NOTICE — READ CAREFULLY
+================================================================================
+
+This software, its source code, documentation, benchmarks, design notes, and
+all derivative artifacts (collectively, the "Software") are the exclusive
+intellectual property of Raul Cruz Acosta (the "Author"). The Software is
+NOT open source. The Software is NOT released under any permissive license
+such as MIT, Apache, BSD, GPL, or similar.
+
+This license is a TEMPORARY, RESTRICTIVE, ALL-RIGHTS-RESERVED license granted
+solely for limited evaluation and archival purposes, while the Author
+evaluates patent, academic publication, and commercial licensing strategies.
+
+================================================================================
+                            1. GRANT OF LICENSE
+================================================================================
+
+Subject to the conditions below, the Author grants no general license to any
+party. Access to this repository does NOT confer any of the following rights:
+
+  (a) the right to use the Software in any production environment;
+  (b) the right to copy, fork, mirror, or redistribute the Software, in
+      whole or in part, in any medium;
+  (c) the right to create or distribute derivative works, including but not
+      limited to ports, rewrites, translations, retrainings, or
+      reimplementations of the algorithms herein;
+  (d) the right to use the Software, its ideas, techniques, or designs to
+      train, fine-tune, evaluate, or benchmark any machine-learning model,
+      including large language models;
+  (e) the right to sublicense the Software to any third party;
+  (f) the right to commercialize, sell, rent, lease, or offer the Software
+      as a service (SaaS, PaaS, or otherwise);
+  (g) the right to file any patent, trademark, or other intellectual
+      property registration that incorporates or is derived from the
+      Software.
+
+The Author reserves ALL rights not explicitly granted in writing.
+
+================================================================================
+                       2. PERMITTED LIMITED ACTIONS
+================================================================================
+
+The following actions are tolerated under this temporary license without
+constituting a transfer of rights:
+
+  (i)   Reading the source code on the hosting platform for the sole
+        purpose of personal, non-commercial study;
+  (ii)  Citing the Software in academic discussion, provided the citation
+        attributes authorship to "Raul Cruz Acosta" and links back to the
+        canonical repository;
+  (iii) Submitting bug reports or suggestions via the repository's issue
+        tracker, which shall be considered non-confidential and which the
+        Author may incorporate without obligation or compensation.
+
+Any other action requires PRIOR, EXPRESS, WRITTEN authorization from the
+Author. Silence, inaction, or non-response from the Author does NOT
+constitute authorization.
+
+================================================================================
+                          3. EXPRESSLY PROHIBITED USES
+================================================================================
+
+Without prejudice to Section 1, the following uses are STRICTLY PROHIBITED:
+
+  - Use of the Software, in whole or in part, as training data, evaluation
+    data, or context for any artificial-intelligence model;
+  - Mirroring or republication of the Software on package registries
+    (PyPI, conda-forge, npm, etc.) or alternative source-code hosts;
+  - Integration of the Software into commercial products, internal
+    enterprise tooling, or revenue-generating pipelines;
+  - Use of the Software by competing research groups, corporations, or
+    state actors without a separate signed agreement;
+  - Removal, alteration, or obfuscation of authorship notices, copyright
+    headers, or this LICENSE file.
+
+================================================================================
+                              4. TERM AND REVOCATION
+================================================================================
+
+This license is GRANTED FOR A LIMITED TERM and is REVOCABLE AT THE AUTHOR'S
+SOLE DISCRETION at any time and for any reason, without prior notice. Upon
+revocation, all parties in possession of the Software must cease use and
+destroy local copies within seventy-two (72) hours of being notified.
+
+This license shall be superseded automatically if and when the Author
+publishes a successor license (for example, a commercial license, an
+academic-use license, or an open-source license). The successor license
+shall govern only versions published under it; this restrictive license
+continues to apply to all versions published before the successor takes
+effect, unless the Author states otherwise in writing.
+
+================================================================================
+                          5. NO WARRANTY / NO LIABILITY
+================================================================================
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO WARRANTIES OF MERCHANTABILITY, FITNESS
+FOR A PARTICULAR PURPOSE, NONINFRINGEMENT, OR CONFORMITY WITH ANY DOCUMENTED
+BEHAVIOR. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY CLAIM, DAMAGES, OR
+OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT, OR OTHERWISE,
+ARISING FROM, OUT OF, OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
+DEALINGS WITH THE SOFTWARE.
+
+================================================================================
+                  6. INTELLECTUAL PROPERTY AND PRIORITY OF INVENTION
+================================================================================
+
+The Author asserts authorship and priority of invention for the technical
+contributions described in the Software, including but not limited to:
+
+  - the canonical SHA-256 descriptor addressing scheme;
+  - the Merkle-DAG-style content-addressed node store for tensors;
+  - the hybrid low-rank + bitwise XOR residual reconstruction technique;
+  - the reversible delta-chain semantics for tensor mutations;
+  - the codec-tournament selection over RAW, SPARSE, SVD, and TensorLy
+    decomposition strategies.
+
+The publication of this repository constitutes a public, timestamped
+disclosure of the foregoing for the purpose of establishing prior art and
+authorship attribution.
+
+================================================================================
+                            7. CONTACT AND LICENSING
+================================================================================
+
+To request a commercial license, an academic-use license, or any other
+authorization beyond Section 2, contact the Author through the channels
+listed in the repository's authorship notice (see AUTHORSHIP.md).
+
+================================================================================
+                                8. GOVERNING LAW
+================================================================================
+
+This license shall be interpreted under the laws of the Author's country of
+residence. Any dispute arising under this license shall be resolved in the
+courts of competent jurisdiction at the Author's domicile.
+
+================================================================================
+
+By accessing, downloading, or otherwise interacting with the Software you
+acknowledge that you have read, understood, and agreed to be bound by the
+terms of this license.
+
+— Raul Cruz Acosta, 2026

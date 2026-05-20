@@ -1,0 +1,8 @@
+numpy
+torch
+tensorly
+lz4
+mscs
+zstandard
+dvc
+safetensors
